@@ -20,6 +20,8 @@
 
 **Project References**
 
+- [Advanced_lane_finding.ipynb](./Advanced_lane_finding.ipynb) Project code
+- [./project_video_result.mp4](./project_video_result.mp4) Solution video for [project_video.mp4](./project_video.mp4) after lane detection
 - ./test\_images\_output/calibration1.jpg Distortion corrected image
 - ./test\_images\_output/sobel\_x.jpg Sobel gradient in x direction
 - ./test\_images\_output/sobel\_y.jpg Sobel gradient in y direction
@@ -29,13 +31,12 @@
 - ./test\_images\_output/combined.jpg Gradients combined
 - ./test\_images\_output/histogram.jpg Histogram for the test1.jpg
 - ./test\_images\_output/Lane\_detected.jpg Final image in the project with lane line detected
-- project\_video\_result.mp4 Result video after the lane detection
 
 **Project Write up**
+- I have added comments when ever neccessary in the notebook. A brief description of project below
 
-**Rubric Points**
-
-**Camera Calibration –** created a function which accepts all the chess board images and creates a list of images points. Used the cv2.calibrate function to compute the calibration matrices
+**Camera Calibration** 
+- created a function which accepts all the chess board images and creates a list of images points. Used the cv2.calibrate function to compute the calibration matrices
 
  ![Chess board](./test_images_output/chessboard.png)
 
