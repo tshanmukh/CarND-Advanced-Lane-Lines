@@ -38,13 +38,12 @@
 **Camera Calibration –** created a function which accepts all the chess board images and creates a list of images points. Used the cv2.calibrate function to compute the calibration matrices
 
  ![Chess board](./test_images_output/chessboard.png)
- ![Chess board](./test_images_output/histogram.jpg)
 
 Used the cv2.undistort to un distort the image
 
 
 
-Gradient Calculation:
+**Gradient Calculation:**
 
 Computed all the different gradients using the sobel and color thresholding and combined all the images using the function Final\_Threshold Funtion
 
@@ -77,7 +76,7 @@ dst\_coordinates = np.float32(
 
      [1065,   0],
 
-                [1065, 720]])
+     [1065, 720]])
 
  ![Perspective_transform](./test_images_output/perspective_transform.jpg)
 
