@@ -37,6 +37,7 @@
 
 **Camera Calibration –** created a function which accepts all the chess board images and creates a list of images points. Used the cv2.calibrate function to compute the calibration matrices
 
+ ![Chess board](./test_images_output/chessboard.png)
  ![Chess board](./test_images_output/histogram.jpg)
 
 Used the cv2.undistort to un distort the image
@@ -90,7 +91,7 @@ Used the sliding window algorithm from the quiz
 
 We calculated the lane curvature and points to mark the lanes and plotted the same back to the image
 
- ![Final_lane_detected](./test_images_output/Lane_detected)
+ ![Final_lane_detected](./test_images_output/Lane_detected.jpg)
 
 **Discussion:**
 
